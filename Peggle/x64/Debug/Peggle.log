@@ -1,0 +1,5 @@
+﻿  Canon.cpp
+  c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+d:\users\1630132\desktop\vs2017\progii_e17_tp1_carlosreyes\peggle\canon.cpp(12): warning C4244: 'argument' : conversion de 'UINT' en 'FLOAT', perte possible de données
+  Peggle.vcxproj -> D:\Users\1630132\Desktop\VS2017\ProgII_E17_TP1_CarlosReyes\x64\Debug\Peggle.exe
+  Peggle.vcxproj -> D:\Users\1630132\Desktop\VS2017\ProgII_E17_TP1_CarlosReyes\x64\Debug\Peggle.pdb (Partial PDB)
