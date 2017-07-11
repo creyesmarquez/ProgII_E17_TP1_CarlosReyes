@@ -6,6 +6,8 @@
 #include "Basket.h"
 #include "Balle.h"
 #include "Canon.h"
+#include "Brick.h"
+
 
 class Peggle 
 	: public D3DApp
@@ -26,6 +28,7 @@ private:
 	Balle balle;
 	Basket basket;
 	Canon canon;
+	Brick brick;
 
 	// Camera
 	D3DXMATRIX view;

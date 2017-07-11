@@ -9,10 +9,17 @@ public:
 
 	void Update();
 	void Draw(ID3DXSprite* spriteBatch);
-	D3DXVECTOR3 rotEuler = { 0.0f, 0.0f, D3DX_PI / 4 };
+	
+
+
+	D3DXVECTOR3 GetRotation()
+	{
+		return rotEuler;
+	}
 
 private:
-	// Sprite
+	D3DXVECTOR3 rotEuler = { 0, 0, 0 };
+	
 	IDirect3DTexture9* texture;
 	D3DXIMAGE_INFO info;
 	D3DXVECTOR3 position;
